@@ -11,7 +11,7 @@ import com.evi.utils.Timer;
  * The JAXB object uses this class to generate the XML results
  */
 @XmlType(propOrder = { "question", "expectedAnswer", "executionTime",
-		"maxTimeOut", "resultReturnedInTime", "resultOfQuestion" })
+		"maxTimeOut", "resultReturnedInTime", "resultOfQuestion", "response" })
 @XmlRootElement
 public class Testcase {
 	private int timeOut;
@@ -77,7 +77,8 @@ public class Testcase {
 	public boolean getResultReturnedInTime() {
 		return withinTime;
 	}
-	@XmlTransient
+	//@XmlTransient
+	@XmlElement(name="ServerResponse")
 	public void setResponse(String response) {
 		this.response = response;
 	}

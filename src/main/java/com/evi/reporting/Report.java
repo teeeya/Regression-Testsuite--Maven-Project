@@ -41,7 +41,7 @@ public class Report {
 				File output = new File("/results");
 				if (output.exists() == false) {
 					output.mkdirs();
-				}	
+				}
 				File outputFile = new File("results/"+(new Date()).getTime()+ ".xml");
 				if (outputFile.exists() == false) {
 					outputFile.createNewFile();

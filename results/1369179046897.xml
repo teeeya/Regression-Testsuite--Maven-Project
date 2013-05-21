@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testcase MaxTimeOut="5000" ExecutionTime="1138">
+    <Question>What%20is%20the%20capital%20of%20France?</Question>
+    <ExpectedAnswer>Paris</ExpectedAnswer>
+    <AnsweredWithinTime>true</AnsweredWithinTime>
+    <CorrectAnswerReturned>true</CorrectAnswerReturned>
+    <ServerResponse>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;tk:response xmlns:tk=&quot;http://www.trueknowledge.com/ns/kengine&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; understood=&quot;true&quot; answered=&quot;true&quot; type=&quot;direct_answer&quot;&gt;
+&lt;tk:status&gt;completeness unknown&lt;/tk:status&gt;
+&lt;tk:text_result&gt;the French city of Paris&lt;/tk:text_result&gt;
+&lt;tk:structured_result type=&quot;answer&quot;&gt;&lt;tk:result&gt;&lt;tk:object&gt;&lt;tk:id&gt;[paris]&lt;/tk:id&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;0&quot;&gt;http://www.evi.com/images/thumbs/150/150/2d07aa99e6a5ebb1003d6eba3ffdcdf7.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;2&quot;&gt;http://www.evi.com/images/thumbs/150/150/53357a00932f108e25f86908ab863de0.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;1&quot;&gt;http://www.evi.com/images/thumbs/150/150/f716f0c4f2b3634be9689aba4c6d3799.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;3&quot;&gt;http://www.evi.com/images/thumbs/150/150/fdbb52a096f979ebde38aca7a41089aa.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;official&quot;&gt;http://www.paris.fr&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot;&gt;http://en.wikipedia.org/wiki/Paris&lt;/tk:metadata&gt;
+&lt;/tk:object&gt;
+&lt;/tk:result&gt;
+&lt;tk:question_entities&gt;&lt;tk:object&gt;&lt;tk:id&gt;[france]&lt;/tk:id&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;1&quot;&gt;http://www.evi.com/images/thumbs/150/150/0076f0d88eb0ac4e7ecf1a6f01097dc1.png&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;2&quot;&gt;http://www.evi.com/images/thumbs/150/150/16df79c48c05cee99e7e74627a506f5f.png&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;0&quot;&gt;http://www.evi.com/images/thumbs/150/150/c3cf51a1808a125bf16a7e1846df8deb.png&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot;&gt;http://en.wikipedia.org/wiki/France&lt;/tk:metadata&gt;
+&lt;/tk:object&gt;
+&lt;/tk:question_entities&gt;
+&lt;/tk:structured_result&gt;
+&lt;tk:num_results&gt;1&lt;/tk:num_results&gt;
+&lt;tk:num_translations&gt;1&lt;/tk:num_translations&gt;
+&lt;tk:tk_question_url&gt;http://www.trueknowledge.com/q/what_is_the_capital_of_france&lt;/tk:tk_question_url&gt;
+&lt;tk:snv&gt;what_is_the_capital_of_france&lt;/tk:snv&gt;
+&lt;/tk:response&gt;
+</ServerResponse>
+</testcase>

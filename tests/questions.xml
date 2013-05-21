@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<questions>
+	<question timeout="5000">
+		<input>Who%20was%20president%20of%20the%20US%20when%20Barack%20Obama%20was%20a%20teenager?</input>
+		<expectedAnswer>Gerald Ford, Jimmy Carter, Ronald Reagan, Richard Nixon</expectedAnswer>
+	</question>
+	<question timeout="5000">
+		<input>What%20is%20the%20time?</input>
+		<expectedAnswer>@CurrentTime@</expectedAnswer>
+	</question>
+	<question timeout="5000">
+		<input>How%20old%20is%20the%20Queen?</input>
+		<expectedAnswer>87</expectedAnswer>
+	</question>
+
+	<question timeout="5000">
+		<input>What%20is%20the%20capital%20of%20France?</input>
+		<expectedAnswer>Paris</expectedAnswer>
+	</question>
+</questions>
+
+

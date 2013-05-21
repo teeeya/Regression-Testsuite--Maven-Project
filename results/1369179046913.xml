@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testcase MaxTimeOut="5000" ExecutionTime="2091">
+    <Question>Who%20was%20president%20of%20the%20US%20when%20Barack%20Obama%20was%20a%20teenager?</Question>
+    <ExpectedAnswer>Gerald Ford, Jimmy Carter, Ronald Reagan, Richard Nixon</ExpectedAnswer>
+    <AnsweredWithinTime>true</AnsweredWithinTime>
+    <CorrectAnswerReturned>true</CorrectAnswerReturned>
+    <ServerResponse>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;tk:response xmlns:tk=&quot;http://www.trueknowledge.com/ns/kengine&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; understood=&quot;true&quot; answered=&quot;true&quot; type=&quot;direct_answer&quot;&gt;
+&lt;tk:status&gt;completeness unknown&lt;/tk:status&gt;
+&lt;tk:text_result&gt;Gerald Ford, Jimmy Carter, Ronald Reagan and Richard Nixon&lt;/tk:text_result&gt;
+&lt;tk:structured_result type=&quot;answer&quot;&gt;&lt;tk:result&gt;&lt;tk:object&gt;&lt;tk:id&gt;[gerald ford]&lt;/tk:id&gt;
+&lt;tk:metadata parameter=&quot;image150&quot;&gt;http://www.evi.com/images/thumbs/150/150/Gerald_Ford.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot;&gt;http://en.wikipedia.org/wiki/Gerald_Ford&lt;/tk:metadata&gt;
+&lt;/tk:object&gt;
+&lt;tk:object&gt;&lt;tk:id&gt;[jimmy carter 2]&lt;/tk:id&gt;
+&lt;tk:metadata parameter=&quot;image150&quot;&gt;http://www.evi.com/images/thumbs/150/150/Jimmy_Carter.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot;&gt;http://en.wikipedia.org/wiki/Jimmy_Carter&lt;/tk:metadata&gt;
+&lt;/tk:object&gt;
+&lt;tk:object&gt;&lt;tk:id&gt;[richard nixon]&lt;/tk:id&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;0&quot;&gt;http://www.evi.com/images/thumbs/150/150/Lt_Cmdr_Richard_Nixon_1945.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;1&quot;&gt;http://www.evi.com/images/thumbs/150/150/Nixon_30-0316a.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;official&quot;&gt;http://www.whitehouse.gov/about/presidents/RichardNixon/&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot;&gt;http://en.wikipedia.org/wiki/Richard_Nixon&lt;/tk:metadata&gt;
+&lt;/tk:object&gt;
+&lt;tk:object&gt;&lt;tk:id&gt;[ronald reagan]&lt;/tk:id&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;1&quot;&gt;http://www.evi.com/images/thumbs/150/150/Official_Portrait_of_President_Reagan_1981.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;0&quot;&gt;http://www.evi.com/images/thumbs/150/150/Reagan_Boraxo.gif&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot;&gt;http://en.wikipedia.org/wiki/Ronald_Reagan&lt;/tk:metadata&gt;
+&lt;/tk:object&gt;
+&lt;/tk:result&gt;
+&lt;tk:question_entities&gt;&lt;tk:object&gt;&lt;tk:id&gt;[barack obama]&lt;/tk:id&gt;
+&lt;tk:metadata parameter=&quot;image150&quot;&gt;http://www.evi.com/images/thumbs/150/150/Barack_Obama_portrait_2005.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;official&quot; result_index=&quot;2&quot;&gt;http://obama.senate.gov&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;official&quot; result_index=&quot;0&quot;&gt;http://www.barackobama.com&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;official&quot; result_index=&quot;3&quot;&gt;http://www.barackobama.com/&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;official&quot; result_index=&quot;1&quot;&gt;http://www.whitehouse.gov&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot;&gt;http://en.wikipedia.org/wiki/Barack_Obama&lt;/tk:metadata&gt;
+&lt;/tk:object&gt;
+&lt;tk:object&gt;&lt;tk:id&gt;[teenager]&lt;/tk:id&gt;
+&lt;/tk:object&gt;
+&lt;tk:object&gt;&lt;tk:id&gt;[us president]&lt;/tk:id&gt;
+&lt;tk:metadata parameter=&quot;image150&quot;&gt;http://www.evi.com/images/thumbs/150/150/8931be99469e24acc072eaf04a57164b.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot; result_index=&quot;1&quot;&gt;http://en.wikipedia.org/wiki/List_of_Presidents_of_the_United_States&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot; result_index=&quot;0&quot;&gt;http://en.wikipedia.org/wiki/President_of_the_United_States&lt;/tk:metadata&gt;
+&lt;/tk:object&gt;
+&lt;/tk:question_entities&gt;
+&lt;/tk:structured_result&gt;
+&lt;tk:num_results&gt;4&lt;/tk:num_results&gt;
+&lt;tk:num_translations&gt;1&lt;/tk:num_translations&gt;
+&lt;tk:tk_question_url&gt;http://www.trueknowledge.com/q/who_was_president_of_the_us_when_barack_obama_was_a_teenager&lt;/tk:tk_question_url&gt;
+&lt;tk:snv&gt;who_was_president_of_the_us_when_barack_obama_was_a_teenager&lt;/tk:snv&gt;
+&lt;/tk:response&gt;
+</ServerResponse>
+</testcase>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testcase MaxTimeOut="5000" ExecutionTime="511">
+    <Question>How%20old%20is%20the%20Queen?</Question>
+    <ExpectedAnswer>87</ExpectedAnswer>
+    <AnsweredWithinTime>true</AnsweredWithinTime>
+    <CorrectAnswerReturned>true</CorrectAnswerReturned>
+    <ServerResponse>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;tk:response xmlns:tk=&quot;http://www.trueknowledge.com/ns/kengine&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; understood=&quot;true&quot; answered=&quot;true&quot; type=&quot;direct_answer&quot;&gt;
+&lt;tk:status&gt;completeness unknown&lt;/tk:status&gt;
+&lt;tk:text_result&gt;Elizabeth II&amp;apos;s date of birth was April 21st 1926. That makes her 87 years and 1 month old now.&lt;/tk:text_result&gt;
+&lt;tk:structured_result type=&quot;auto_answerlet&quot;&gt;&lt;tk:result&gt;&lt;/tk:result&gt;
+&lt;tk:question_entities&gt;&lt;tk:object&gt;&lt;tk:id&gt;[queen elizabeth ii]&lt;/tk:id&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;1&quot;&gt;http://www.evi.com/images/thumbs/150/150/7e57b6e07ddbe5d35c3f74ce639b64f8.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;image150&quot; result_index=&quot;0&quot;&gt;http://www.evi.com/images/thumbs/150/150/d156152423e8c8af17341d3bda67943e.jpg&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;official&quot; result_index=&quot;0&quot;&gt;http://www.royal.gov.uk&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;official&quot; result_index=&quot;1&quot;&gt;http://www.royal.gov.uk/&lt;/tk:metadata&gt;
+&lt;tk:metadata parameter=&quot;wikipedia&quot;&gt;http://en.wikipedia.org/wiki/Elizabeth_II&lt;/tk:metadata&gt;
+&lt;/tk:object&gt;
+&lt;/tk:question_entities&gt;
+&lt;/tk:structured_result&gt;
+&lt;tk:num_results&gt;1&lt;/tk:num_results&gt;
+&lt;tk:num_translations&gt;1&lt;/tk:num_translations&gt;
+&lt;tk:tk_question_url&gt;http://www.trueknowledge.com/q/how_old_is_the_queen&lt;/tk:tk_question_url&gt;
+&lt;tk:snv&gt;how_old_is_the_queen&lt;/tk:snv&gt;
+&lt;/tk:response&gt;
+</ServerResponse>
+</testcase>

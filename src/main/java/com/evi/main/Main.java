@@ -22,11 +22,11 @@ public class Main {
 	public static void main(String[] args) {
 		// Set the application Properties
 		applicationProperties = new ApplicationProperties(args);
-		// System.out.println();
 		testHandler = new TestHandler(applicationProperties.setup());
 		testHandler.processConfigFile();
 		testHandler.executeQuery();
 		testHandler.executeTests();
 		Report.outputReport();
 	}
+	
 }
