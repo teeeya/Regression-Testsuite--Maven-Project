@@ -1,8 +1,13 @@
 package com.evi.domain;
-import java.util.Properties;
-/*
- *  This class will set up the application properties for the testsuite
+/**
+ * 
+ *  This class will set up the application properties for the testsuite 
+ *  @author Fathea Chowdhury
+ *  @version 1.0
+ *  
+ *  
  */
+import java.util.Properties;
 public class ApplicationProperties {
 	private Properties properties = new Properties();
 	private String [] params = {"location", "url","username","password"};

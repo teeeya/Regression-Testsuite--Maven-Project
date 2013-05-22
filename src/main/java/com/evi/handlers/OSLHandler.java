@@ -1,14 +1,17 @@
 package com.evi.handlers;
 
+/**
+ * This class will execute all of the queries
+ * @author Fathea Chowdhury
+ * @version 1.0
+ * 
+ */
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.EntityUtils;
 
-/*
- * This class will execute all of the queries
- */
 public class OSLHandler {
 	private int timeOut;
 	private String password, username, question, query;

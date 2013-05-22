@@ -1,5 +1,12 @@
 package com.evi.handlers;
-
+/**
+ * This class 
+ * 1. Processes the config file - parses the xml and stores it
+ * 2. Executes the tests
+ * 
+ * @author Fathea Chowdhury
+ * @version 1.0
+ */
 import java.io.File;
 import java.io.StringBufferInputStream;
 import java.util.ArrayList;
@@ -16,12 +23,7 @@ import org.w3c.dom.NodeList;
 import com.evi.reporting.Report;
 import com.evi.utils.DateInjection;
 
-/*
- * This class 
- * 1. Processes the config file - parses the xml and stores it
- * 2. Executes the tests
- * 
- */
+
 public class TestHandler {
 	private Properties properties;
 	private ArrayList<Testcase> tests = new ArrayList<Testcase>();

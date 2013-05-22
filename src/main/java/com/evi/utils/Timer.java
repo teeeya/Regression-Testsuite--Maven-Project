@@ -1,6 +1,8 @@
 package com.evi.utils;
-/*
+/**
  * This is the timer class - for each testcase a Timer is created to time each test
+ * @author Fathea Chowdhury
+ * @version 1.0
  */
 public class Timer {
 	private long start;

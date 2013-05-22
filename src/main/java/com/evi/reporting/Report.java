@@ -13,8 +13,10 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import com.evi.handlers.Testcase;
-/*
+/**
  * This class will create the report for each testcase
+ * @author Fathea Chowdhury
+ * @version 1.0
  */
 public class Report {
 	private static final Map<String, Testcase> reports = new HashMap<String, Testcase>();

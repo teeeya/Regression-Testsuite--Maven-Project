@@ -3,8 +3,10 @@ package com.evi.utils;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
-/*
+/**
  * This class returns the current timedate to inject into the config file
+ * @author Fathea Chowdhury
+ * @version 1.0
  */
 public class DateInjection {
 	Date dNow;

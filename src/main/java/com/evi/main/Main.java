@@ -1,7 +1,7 @@
 package com.evi.main;
 
 /**
- * This is a regression testsuite  that will test that the correct text answer is given to the following 
+  This is a regression testsuite  that will test that the correct text answer is given to the following 
  * questions at all times and that the response is returned within a (configurable) 5 seconds.
  * How old is the Queen?
  * What is the time?
@@ -9,6 +9,7 @@ package com.evi.main;
  * Who was president of the US when Barack Obama was a teenager?
  * 
  * @author FatheaChowdhury
+ * @version 1.0
  * 
  */
 

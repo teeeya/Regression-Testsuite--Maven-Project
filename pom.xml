@@ -43,6 +43,23 @@
     <scope>compile</scope>
   </dependency>
 	</dependencies>
-	
+	 <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <mainClass>com.evi.main.main</mainClass>
+                    <arguments>     
+                        <argument>./tests/questions.xml</argument>
+                        <argument>http://api.trueknowledge.com:80/direct_answer/?</argument>
+                        <argument>api_tktestrole</argument>
+                        <argument>12bek2bldxxqp3iv</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

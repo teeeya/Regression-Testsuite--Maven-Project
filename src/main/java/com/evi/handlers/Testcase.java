@@ -1,15 +1,20 @@
 package com.evi.handlers;
-
+/**
+ *
+ * For every question, a testcase is created. 
+ * The JAXB object uses this class to generate the XML results
+ * 
+ * @author Fathea Chowdhury
+ * @version 1.0
+ * 
+ */
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
 import com.evi.utils.Timer;
-/*
- * For every question, a testcase is created. 
- * The JAXB object uses this class to generate the XML results
- */
+
 @XmlType(propOrder = { "question", "expectedAnswer", "executionTime",
 		"maxTimeOut", "resultReturnedInTime", "resultOfQuestion", "response" })
 @XmlRootElement
