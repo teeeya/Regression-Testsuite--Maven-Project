@@ -10,14 +10,14 @@ Pre-requisites
 
 
 1. Download the project
-2. Import the project into eclipse as an "existing project"
-The project should have a red "!" on the project (There are problems with the build path)
+2. Import the project into eclipse as an "existing project.."
+The project will have a red "!" on the project (There are problems with the build path)
 3. Open terminal/cmd
-Navigate to project
+Navigate to project folder
 run the following command to resolve/add all dependancies
 mvn eclipse:eclipse
-Refresh the project and this should disappear.
-4. Run this project in eclipse
+Refresh the project and the exclamaition mark should disappear.
+4. Run this project within eclipse
 - Right click on the project and click on "Run as" -> "Run Configurations"
 - Add the following arguments:
 
