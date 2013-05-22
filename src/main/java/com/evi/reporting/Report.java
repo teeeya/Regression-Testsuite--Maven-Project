@@ -40,7 +40,7 @@ public class Report {
 				JAXBContext context = JAXBContext.newInstance(Testcase.class);
 				Marshaller m = context.createMarshaller();
 				m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-				File output = new File("/results");
+				File output = new File("./results");
 				if (output.exists() == false) {
 					output.mkdirs();
 				}

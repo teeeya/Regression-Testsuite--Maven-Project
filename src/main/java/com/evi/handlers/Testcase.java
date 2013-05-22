@@ -28,7 +28,7 @@ public class Testcase {
 	private long duration;
 	private boolean testResult;
 	private boolean withinTime;
-
+	
 	private String response;
 	public Testcase() {
 	}

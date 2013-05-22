@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testcase MaxTimeOut="5000" ExecutionTime="909">
+    <Question>What%20is%20the%20time?</Question>
+    <ExpectedAnswer>May 22th 2013, 16:33</ExpectedAnswer>
+    <AnsweredWithinTime>true</AnsweredWithinTime>
+    <CorrectAnswerReturned>false</CorrectAnswerReturned>
+    <ServerResponse>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;tk:response xmlns:tk=&quot;http://www.trueknowledge.com/ns/kengine&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; understood=&quot;true&quot; answered=&quot;true&quot; type=&quot;direct_answer&quot;&gt;
+&lt;tk:status&gt;completeness unknown&lt;/tk:status&gt;
+&lt;tk:text_result&gt;May 22nd 2013, 16:33:21 (UTC B)&lt;/tk:text_result&gt;
+&lt;tk:structured_result type=&quot;auto_answerlet&quot;&gt;&lt;tk:result&gt;&lt;/tk:result&gt;
+&lt;tk:question_entities&gt;&lt;/tk:question_entities&gt;
+&lt;/tk:structured_result&gt;
+&lt;tk:num_results&gt;1&lt;/tk:num_results&gt;
+&lt;tk:num_translations&gt;1&lt;/tk:num_translations&gt;
+&lt;tk:tk_question_url&gt;http://www.trueknowledge.com/q/what_is_the_time&lt;/tk:tk_question_url&gt;
+&lt;tk:snv&gt;what_is_the_time&lt;/tk:snv&gt;
+&lt;/tk:response&gt;
+</ServerResponse>
+</testcase>
