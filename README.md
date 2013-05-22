@@ -27,6 +27,7 @@ Refresh the project and this should disappear.
 
 
 This testsuite will do the following:
+
 1. Load in a config.xml file and extract the pieces of information for each scenario (question, asnwer, timeout). This is needed to execute and verify the success of each test.
 2. It will pass in the parameter (question) set in the config file to an API
 3. The time for each requst and answer returned will be stored
