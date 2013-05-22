@@ -1,6 +1,9 @@
 Regression-Testsuite--Maven-Project
 ===================================
 
+This is a regression testsuite task that was set out as an (pre-interview) automated test problem.
+This can be downloaded and run with the following steps:
+
 
 1. Download the project
 2. Import the project into eclipse as an "existing project"
@@ -17,3 +20,12 @@ Refresh the project and this should disappear.
 ./tests/questions.xml http://api.trueknowledge.com:80/direct_answer/?  api_tktestrole  12bek2bldxxqp3iv
 
 5. Run project
+
+
+This testsuite will do the following:
+1. Load in a config.xml file and extract the pieces of information for each scenario (question, asnwer, timeout). This is needed to execute and verify the success of each test.
+2. It will pass in the parameter (question) set in the config file to an API
+3. The time for each requst and answer returned will be stored
+4. For each scenario the answer will be verified 
+5. For each scenario the time taken will be checked against expected time (timeout) set in the config file.
+6. The results will then be logged and a report file will be created for each scenario.
