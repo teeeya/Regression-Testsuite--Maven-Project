@@ -10,6 +10,8 @@ Pre-requisites
 2. Maven installed
 
 
+Steps
+
 1. Download the project
 2. Import the project into eclipse as an "existing project.."
 The project will have a red "!" on the project (There are problems with the build path)
