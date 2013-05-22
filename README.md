@@ -5,9 +5,12 @@ This is a regression testsuite task that was set out as an (pre-interview) autom
 This can be downloaded and run with the following steps:
 
 Pre-requisites
+
 1. Need to be using Java 1.6
 2. Maven installed
 
+
+Steps
 
 1. Download the project
 2. Import the project into eclipse as an "existing project.."
